@@ -1,0 +1,25 @@
+// --------------------------------------------------------------------------
+//  Typography
+// --------------------------------------------------------------------------
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Montserrat:400,700);
+
+
+//  Standard Settings
+// ----------------------------------------------
+$base-font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+$serif-font-family: 'Playfair Display', serif;
+
+$base-font-size: 16px;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.5;
+$base-font-weigt: 400;
+
+$spacing-unit: 30px;
+
+// --------------------------------------------------------------------------
+//  Set Fonts
+// --------------------------------------------------------------------------
+
+body {
+    font-family: $base-font-family;
+}
