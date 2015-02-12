@@ -3,36 +3,19 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-
-
-// $spacing-unit:     30px;
-
-// $text-color:       #111;
-// $background-color: #fdfdfd;
-// $brand-color:      #2a7ae2;
-
-// $grey-color:       #828282;
-// $grey-color-light: lighten($grey-color, 40%);
-// $grey-color-dark:  darken($grey-color, 25%);
-
-// // Width of the content area
-// $content-width:    800px;
-
-// $on-palm:          600px;
-// $on-laptop:        800px;
-
-
 // --------------------------------------------------------------------------
-//  Imports
+//  Base
 // --------------------------------------------------------------------------
 
 @import "base/normalize";
 @import "base/syntax";
 @import "base/html5bp";
+@import "base/variables";
 @import "base/typography";
+@import "base/layout";
 
+// --------------------------------------------------------------------------
+//  Print
+// --------------------------------------------------------------------------
 
 @import "base/print";
